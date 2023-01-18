@@ -5,10 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Medulin apartments - {% block title %} {% endblock title %}</title>
+        <title> {% block title %} {% endblock title %}</title>
         <!-- Core theme CSS (includes Bootstrap)-->
         {% load static %}
         <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+        <style>
+            .txtleft {
+ text-align: left;
+ }
+        </style>
     </head>
     <body>
         <!-- Responsive navbar-->

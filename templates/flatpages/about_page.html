@@ -1,12 +1,17 @@
 {% extends 'flatpages/default.html' %}
 
+{% block title %}
+Medulin apartments -
+{{ flatpage.title }}
+{% endblock title %}
+
 {% block content %}
     <h1> О нас </h1>
     <hr>
     <h2><p style="text-align: center;">Вас приветствует Medulin apartment!</p></h2>
     <h3> {{ flatpage.content }} </h3>
-    <h3><p style="text-align: left;">На этом сайте Вы можете узнать о наших услугах в сфере аренды аппартаментов в Хорватии.</p></h3>
-   <p style="text-align: left;">Во вкладке <i>Contact</i> Вы найдете информацию как связаться с нами.</p>
-     <p style="text-align: left;">Во вкладке <i>Rent</i> Вы найдете информацию об апартаментах доступных для аренды.</p>
+    <h3><p class="txtleft">На этом сайте Вы можете узнать о наших услугах в сфере аренды аппартаментов в Хорватии.</p></h3>
+   <p class="txtleft">Во вкладке <i>Contact</i> Вы найдете информацию как связаться с нами.</p>
+     <p class="txtleft">Во вкладке <i>Rent</i> Вы найдете информацию об апартаментах доступных для аренды.</p>
 
 {% endblock content %}
